@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', 'Arial';
+    margin: 0;
+}
+
+input,
+button,
+a {
+    font-family: 'Montserrat', 'Arial';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-items: center;
+    width: fixed 1440px;
+
+}
+
+.header_text {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 32px;
+}
+
+.hero {
+    margin-left: 117px;
+
+
+}
+
+.maintitle {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 64px;
+    width: 755px;
+    margin-bottom: 0px;
+    line-height: 70px;
+
+
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+
+}
+
+a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.hero__wrapper {
+    background-image: url(./images/Rectangle_15.png);
+    background-size: cover;
+    background-position: center;
+    height: 735px;
+    width: 1440px;
+
+}
+
+p {
+    color: #FFFFFF;
+
+}
+
+.line {
+    align-items: center;
+    position: absolute;
+    margin-top: 60px;
+
+}
+
+
+
+.cards {
+    list-style-type: none;
+    padding: 0;
+
+    margin: 32px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 1440px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.card {
+    max-width: 379px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 8px;
+}
+
+
+
+.card__content {
+    padding: px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.text__card {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #888888;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    margin-top: auto;
+    width: 100%;
+}
+
+.products {
+    width: 1440px;
+}
+
+
+.title__p {
+    color: black;
+    margin-left: 120px;
+    font-size: 48px;
+    font-weight: 600;
+
+
+}
+
+.footer {
+    background-color: #F7F6F6;
+    height: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+    margin-top: 18px;
+}
+
+.footer__text {
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
